@@ -1,0 +1,31 @@
+{
+  "name": "app-feature-update-video-script-generator",
+  "version": "0.1.0",
+  "description": "为私募排排网APP生成功能更新宣传短视频脚本。",
+  "author": {
+    "name": "minghe010-bit"
+  },
+  "keywords": [
+    "短视频脚本",
+    "APP功能更新",
+    "金融合规",
+    "私募排排网"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "APP功能更新短视频脚本生成器",
+    "shortDescription": "生成功能更新宣传短视频脚本",
+    "longDescription": "根据功能名称和介绍，输出可直接交付剪辑的30至60秒私募排排网APP功能更新短视频脚本。",
+    "developerName": "minghe010-bit",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "根据功能名称和介绍，生成30至60秒功能更新短视频脚本。",
+      "把这段APP更新说明改成剪辑师可直接使用的脚本。",
+      "为这个APP新功能提炼卖点、标题和封面文案。"
+    ],
+    "brandColor": "#173B66"
+  }
+}
